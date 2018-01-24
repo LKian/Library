@@ -1,0 +1,2 @@
+1/24
+need to remove text from input box after new book title is submitted
