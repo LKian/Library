@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0; }
+body, html { 
+	font-family: arial;   }
+header {
+	box-sizing: border-box;
+	background-color: #2980b9;
+	color: #fff;
+	padding: 25px;
+	width: 100%;  }
+
+header h1, header h4 {
+	margin: 15px 0;
+	text-transform: uppercase;
+	text-align: center; }
+
+
+#topInputs { 
+	display: inline-block;
+	width: 100%; 
+ }
+
+#addBookForm input, #searchBox input {
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 48%;
+	padding: 10px; 
+	margin: 1%;
+	border-radius: 5px; 
+	border: none;
+	box-shadow: 0;	 }
+#addBookForm input::placeholder, #searchBox input::placeholder {
+	
+	font-size: 1em; }
+
+#shelf {
+	margin: 0 auto;
+	padding: 25px;
+	list-style: none; }
+#shelf li { 
+	padding: 10px; 
+	position: relative; }
+#hideSection {
+	padding: 10px; }
+
+
+input::placeholder {
+	text-transform: none; }
+
+input {
+	font-family: arial, FontAwesome;
+	font-size: 1.1em; } 
+.name {
+	color: #aaa; }
+
+#addBookForm #hide {
+	display: block;
+	background: red;
+	border: 3px dashed red; }
+
+.delete { 
+	color: #fff; 
+	padding: 5px;
+	font-size: 10px;
+	background-color: rgb(250,0,0);
+	float: right;
+	text-align: center; 
+	border-radius: 5px;
+	cursor: pointer;  }
+
+
+@media (max-width: 768px) {
+	#addBookForm input, #searchBox input { 
+	width: 100%;
+}
+}
